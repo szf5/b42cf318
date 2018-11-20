@@ -1,0 +1,9 @@
+version: '3'
+services:
+  test:
+    build: .
+    environment:
+      LANG: 'C.UTF-8'
+    volumes:
+      - .:/root/t
+
